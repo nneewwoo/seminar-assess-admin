@@ -12,8 +12,10 @@
 	<br />
 	<h1 class="dark:text-white text-black">Hello, Admin!</h1>
 	<br />
+	<div>
+		<a href="tna-results"><ConicGradient stops={conicStops}><h1>RESULTS</h1></ConicGradient></a>
+	</div>
 	<br />
-
 	<div class="logo-cloud grid-cols-1 lg:!grid-cols-3 gap-5">
 		<a class="logo-item" href="total-users">
 			<span>Total of users</span>
@@ -40,7 +42,8 @@
 			<span>Evaluation Results</span>
 		</a>
 	</div>
-	<a href="tna-results"><ConicGradient stops={conicStops}>RESULTS</ConicGradient></a>
+
+	<button class="btn btn-sm variant-ghost-surface fixed bottom-4 right-4">Logout</button>
 </main>
 
 <style>
