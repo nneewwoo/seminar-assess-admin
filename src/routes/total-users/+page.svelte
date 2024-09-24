@@ -1,34 +1,32 @@
 <script>
-	let users = [
-		{ id: 1, name: 'Alice' },
-		{ id: 2, name: 'Bob' },
-		{ id: 3, name: 'Charlie' }
-	];
 </script>
 
-<main>
-	<h1>Total Users: {users.length}</h1>
-	<ul>
-		{#each users as user}
-			<li>{user.name}</li>
-		{/each}
-	</ul>
-</main>
+<!-- Responsive Container (recommended) -->
+<div class="table-container">
+	<!-- Native Table Element -->
+	<table class="table table-hover">
+		<thead>
+			<tr>
+				<th colspan="3">Total users</th>
+				<!-- <td>{totalWeight}</td> -->
+			</tr>
+			<tr>
+				<th>Name</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!-- {#each tableArr as row, i}
+				<tr>
+					<td>{row.position}</td>
+					<td>{row.name}</td>
+					<td>{row.symbol}</td>
+					<td>{row.weight}</td>
+				</tr>
+			{/each} -->
+		</tbody>
+		<tfoot> </tfoot>
+	</table>
+</div>
 
 <style>
-	main {
-		font-family: Arial, sans-serif;
-		padding: 1rem;
-	}
-	ul {
-		list-style-type: none;
-		padding: 0;
-	}
-	li {
-		background: #f4f4f4;
-		margin: 0.5rem 0;
-		padding: 0.5rem;
-		border-radius: 4px;
-		color: black;
-	}
 </style>

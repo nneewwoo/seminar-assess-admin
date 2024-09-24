@@ -22,9 +22,8 @@
 				>
 					GitHub
 				</a>
-				<a>
-					<button class="btn btn-sm variant-ghost-surface">Logout</button>
-				</a>
+
+				<button class="btn btn-sm variant-ghost-surface">Logout</button>
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>

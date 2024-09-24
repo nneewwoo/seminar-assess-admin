@@ -30,8 +30,8 @@
 		<a class="logo-item" href="test-results">
 			<span>Test Results</span>
 		</a>
-		<a class="logo-item" href="guess-speaker">
-			<span>Guess Speaker</span>
+		<a class="logo-item" href="guest-speaker">
+			<span>Guest Speaker</span>
 		</a>
 		<a class="logo-item" href="evaluation">
 			<span>Evaluation</span>
